@@ -135,8 +135,8 @@ def setup_package():
             ext_modules=ext_modules,
             install_requires=[
                 'numpy>=1.7',
-                'spacy>=0.100,<0.102',
-                'preshed>=0.46,<0.47',
+                'spacy>=0.100',
+                'preshed>=1.0.0,<2.0.0',
                 'murmurhash>=0.26,<0.27',
                 'cymem>=1.30,<1.32',
                 'sputnik>=0.9.0,<0.10.0'],

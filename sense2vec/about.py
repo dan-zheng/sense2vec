@@ -4,7 +4,7 @@
 # https://github.com/pypa/warehouse/blob/master/warehouse/__about__.py
 
 title = 'sense2vec'
-version = '0.6.0'
+version = '0.6.1'
 summary = 'word2vec with NLP-specific tokens'
 uri = 'https://github.com/explosion/sense2vec'
 author = 'Matthew Honnibal'
