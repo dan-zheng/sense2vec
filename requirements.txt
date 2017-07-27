@@ -1,4 +1,4 @@
-cython<0.24
+cython
 numpy>=1.7
 ujson>=1.34
 spacy>=0.100.0

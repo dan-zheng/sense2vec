@@ -13,6 +13,9 @@ from sense2vec import about
     force=("Force overwrite", "flag", "f", bool),
 )
 def main(force=False):
+    about.__title__ = about.title
+    about.__version__ = about.version
+    about.__default_model__ = about.default_model
     if force:
         sputnik.purge(about.__title__, about.__version__)
 
